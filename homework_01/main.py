@@ -11,10 +11,13 @@ EVEN = "even"
 PRIME = "prime"
 
 def is_prime(prime):
-    for q in range(2, int(prime ** 0.5) + 1):
-        if prime % q == 0:
-            return False
-    return True
+    if x > 1:
+        for q in range(2, int(prime ** 0.5) + 1):
+            if prime % q == 0:
+                return False
+        return True
+    else:
+        return False
 
 def filter_numbers(nums, filter_type):
     if filter_type == ODD:

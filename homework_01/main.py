@@ -26,3 +26,4 @@ def filter_numbers(nums, filter_type):
         return list(filter(lambda q: (q % 2 == 0), nums))
     if filter_type == PRIME:
         return list(filter(is_prime, nums))
+    raise ValueError(f"ERROR: {filter_type}")

@@ -10,8 +10,8 @@ ODD = "odd"
 EVEN = "even"
 PRIME = "prime"
 
-def is_prime(prime):
-    if x > 1:
+def is_prime(prime: int) -> bool:
+    if prime > 1:
         for q in range(2, int(prime ** 0.5) + 1):
             if prime % q == 0:
                 return False

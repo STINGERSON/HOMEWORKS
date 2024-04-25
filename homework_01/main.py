@@ -4,7 +4,6 @@
 """
 def power_numbers(*nums):
     return [x * x for x in nums]
-power_numbers(1, 2, 5, 7)
 
 ODD = "odd"
 EVEN = "even"

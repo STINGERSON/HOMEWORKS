@@ -2,7 +2,7 @@
 Домашнее задание №1
 Функции и структуры данных
 """
-def power_numbers(*nums):
+def power_numbers(nums):
     return list(x * x for x in nums)
 power_numbers(1, 2, 5, 7)
 
